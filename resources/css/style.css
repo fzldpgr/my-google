@@ -61,6 +61,20 @@ ul li
     border-radius: 50%;
 }
 
+.google__hero
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google__hero--logo
+{
+    margin-top: 136px;
+}
+
+.google__hero--logo{}
+
 footer
 {
     background-color: #F2F2F2;
