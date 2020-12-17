@@ -10,6 +10,7 @@
 body
 {
     font-family: 'Noto Sans', sans-serif;
+    overflow: hidden;
 }
 
 a
@@ -63,34 +64,52 @@ ul li
 footer
 {
     background-color: #F2F2F2;
-    width: 110%;
-    margin-left: -10px;
+    position: absolute;
+    bottom: 0;
+    width: 100.9%;
+    margin-left: -9px;
+    clear: both;
+    height: auto;
 }
 
 footer,
 a
 {
     color: #70757a;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 p
 {
     margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+hr
+{
+    margin-top: -1px;
+    padding: 5px 0;
 }
 
 .footer__bar
 {
     display: flex;
-    margin: 0 -10px;
+    margin: 0 -10px 5 -10px;
 }
 
 .footer__bar--1
 {
-    flex: 0 0 50%;
+    /*flex: 0 0 78%;*/
+    margin-right: auto;
 }
 
-.footer__bar--2
+.footer__bar--1 a
 {
-    padding;
+    margin-right: 12px;
 }
+
+.footer__bar--2 a
+{
+    margin-right: 20px;
+}
+
