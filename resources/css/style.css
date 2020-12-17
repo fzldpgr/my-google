@@ -117,7 +117,7 @@ ul li
 
 .buttons
 {
-    margin-top:28px;
+    margin-top:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,6 +144,32 @@ ul li
 {
     border:1px solid #4885ed;
     padding: 9px 19px;
+}
+
+.google__lang
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.google__languages
+{
+    padding-top: 0;
+    padding-left: 0px;
+}
+
+.google__languages a
+{
+    color: blue;
+}
+
+.google__lang--offer
+{
+    padding-top: 5px;
+    padding-right: 7px;
 }
 
 footer
