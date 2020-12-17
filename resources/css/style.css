@@ -92,11 +92,11 @@ ul li
 
 .google__search--bar:hover
 {
-    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    box-shadow: 1px 1px 10px 1px #dcdcdc;
 }
 .google__search--bar:focus-within
 {
-    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    box-shadow: 1px 1px 10px 1px #dcdcdc;
     outline:none;
 }
 
@@ -104,7 +104,7 @@ ul li
 {
     height:44px;
     border:none;
-    width:426px;
+    width:390px;
     font-size:16px;
     outline: none;
 }
@@ -113,6 +113,14 @@ ul li
   height:20px;
   top:5px;
   left:10px;
+  padding-left: 10px;
+}
+
+.search{
+  height:15px;
+  top:5px;
+  left:10px;
+  padding-right: 10px;
 }
 
 .buttons
