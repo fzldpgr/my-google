@@ -80,12 +80,14 @@ ul li
 
 .google__search--bar
 {
-    width:575px;
+    width:482px;
     border-radius:30px;
     border:1px solid #dcdcdc;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    margin-top: 12px;
 }
 
 .google__search--bar:hover
@@ -102,23 +104,20 @@ ul li
 {
     height:44px;
     border:none;
-    width:500px;
+    width:426px;
     font-size:16px;
     outline: none;
 }
 
 .voice{
   height:20px;
-  position: absolute;
-  margin-top: 325px;
-  margin-left: 725px;
   top:5px;
   left:10px;
 }
 
 .buttons
 {
-    margin-top:30px;
+    margin-top:28px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,8 +126,8 @@ ul li
 {
     background-color: #f5f5f5;
     border:none;
-    color:#707070;
-    font-size:15px;
+    color:#5a5a5a;
+    font-size:14px;
     padding: 10px 20px;
     margin:5px;
     border-radius:4px;
@@ -138,7 +137,8 @@ ul li
 {
     border: 1px solid #c8c8c8;
     padding: 9px 19px;
-    color:#808080;
+    color:#202124;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #dcdcdc;
 }
 .button:focus
 {
